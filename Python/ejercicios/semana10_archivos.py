@@ -1,5 +1,5 @@
 """
-Semana 5: Archivos y formatos de datos
+Semana 10: Archivos y formatos de datos
 
 Ejercicio 1: Escribir una lista de nombres en un archivo .txt, uno por linea.
 Ejercicio 2: Leer ese archivo y mostrar su contenido.

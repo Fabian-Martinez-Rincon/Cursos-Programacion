@@ -19,175 +19,21 @@ Esto permite elegir un recorrido adecuado y evitar que empiece con tecnologías 
 
 ## Posibles motivaciones y recorridos
 
-| Motivación                             | Recorrido sugerido                                            |
-| -------------------------------------- | ------------------------------------------------------------- |
-| Quiero descubrir si me gusta programar | Fundamentos + proyectos cortos                                |
-| Quiero prepararme para la facultad     | Lógica + Pascal + resolución de problemas                     |
-| Quiero crear páginas web               | HTML + CSS + JavaScript                                       |
-| Quiero trabajar como programador       | Python o JavaScript + Git + SQL                               |
-| Quiero trabajar con datos              | Python + SQL + Pandas                                         |
-| Quiero automatizar tareas              | Python + archivos + Excel                                     |
-| Quiero crear videojuegos               | Lógica + Python + Pygame                                      |
-| Quiero aprender computación general    | Sistema operativo + archivos + internet + programación básica |
+* **Quiero descubrir si me gusta programar** — Fundamentos + proyectos cortos.
+* **Quiero prepararme para la facultad** — Lógica + Pascal + resolución de problemas.
+* **Quiero crear páginas web** — HTML + CSS + JavaScript.
+* **Quiero trabajar como programador** — Python o JavaScript + Git + SQL.
+* **Quiero trabajar con datos** — Python + SQL + Pandas.
+* **Quiero automatizar tareas** — Python + archivos + Excel.
+* **Quiero crear videojuegos** — Lógica + Python + Pygame.
+* **Quiero aprender computación general** — Sistema operativo + archivos + internet + programación básica.
 
-<a id="tronco-comun"></a>
-# Tronco común: primeras 8 semanas
+# Caminos
 
-Todos deberían comenzar con una base similar antes de elegir una especialización.
-
-## Semana 1: Conocer la computadora
-
-**Contenidos:**
-
-* Qué es el hardware y el software.
-* Sistema operativo.
-* Archivos, carpetas y extensiones.
-* Instalar y desinstalar programas.
-* Uso básico del navegador.
-* Seguridad y contraseñas.
-
-**Objetivo:**
-Organizar archivos y utilizar las herramientas básicas de una computadora con autonomía.
-
-**Actividad:**
-Crear una carpeta de estudio con subcarpetas para ejercicios, proyectos y apuntes.
-
----
-
-## Semana 2: Introducción a la programación
-
-**Contenidos:**
-
-* Qué es un programa.
-* Qué es un algoritmo.
-* Entrada, proceso y salida.
-* Lenguaje de programación.
-* Compilador e intérprete.
-* Primer programa.
-
-**Objetivo:**
-Comprender que programar consiste en darle instrucciones ordenadas a una computadora.
-
-**Proyecto:**
-Programa que solicite el nombre y la edad de una persona y muestre un mensaje personalizado.
-
----
-
-## Semana 3: Variables y tipos de datos
-
-**Contenidos:**
-
-* Variables.
-* Números enteros y reales.
-* Caracteres y textos.
-* Booleanos.
-* Asignación.
-* Operaciones matemáticas.
-
-**Objetivo:**
-Guardar datos, modificarlos y utilizarlos en cálculos sencillos.
-
-**Proyecto:**
-Calculadora de edad, promedio o conversión de temperaturas.
-
----
-
-## Semana 4: Condicionales
-
-**Contenidos:**
-
-* Comparaciones.
-* Operadores relacionales.
-* `if`, `else` y condiciones anidadas.
-* Operadores `and`, `or` y `not`.
-
-**Objetivo:**
-Crear programas capaces de tomar decisiones.
-
-**Proyecto:**
-Programa que determine si una persona es mayor de edad o si un estudiante aprobó una materia.
-
----
-
-## Semana 5: Repeticiones
-
-**Contenidos:**
-
-* Para qué sirven los ciclos.
-* Estructura `while`.
-* Condición de finalización.
-* Actualización de variables.
-* Bucles infinitos.
-
-**Objetivo:**
-Repetir instrucciones hasta que se cumpla una condición.
-
-**Proyecto:**
-Solicitar números hasta ingresar cero e informar cuántos números se ingresaron.
-
----
-
-## Semana 6: Contadores y acumuladores
-
-**Contenidos:**
-
-* Contadores.
-* Acumuladores.
-* Máximos y mínimos.
-* Cálculo de promedios.
-* Porcentajes.
-
-**Objetivo:**
-Procesar una secuencia de datos y obtener resultados.
-
-**Proyecto:**
-Registrar las notas de varios estudiantes e informar:
-
-* Cantidad de estudiantes.
-* Promedio general.
-* Nota más alta.
-* Cantidad de aprobados.
-
----
-
-## Semana 7: Modularización
-
-**Contenidos:**
-
-* Dividir un problema.
-* Funciones y procedimientos.
-* Parámetros.
-* Variables locales y globales.
-* Reutilización de código.
-
-**Objetivo:**
-Separar un programa en partes pequeñas y fáciles de comprender.
-
-**Proyecto:**
-Crear una calculadora donde cada operación esté resuelta por una función diferente.
-
----
-
-## Semana 8: Proyecto integrador
-
-La persona elige un proyecto sencillo relacionado con sus intereses.
-
-**Opciones:**
-
-* Sistema de notas.
-* Agenda de contactos.
-* Registro de gastos.
-* Juego de adivinanzas.
-* Calculadora de precios.
-* Encuesta de estudiantes.
-* Control de productos.
-
-**Objetivo:**
-Resolver un problema completo aplicando variables, condicionales, ciclos y funciones.
-
-# Caminos de especialización
-
-Después del tronco común, la persona puede elegir un recorrido.
+No hay un tronco común único: cada camino empieza desde cero, pero directamente en el
+lenguaje que se va a usar (evita enseñar la lógica dos veces, una genérica y otra en el
+lenguaje elegido). Los temas base (variables, condicionales, ciclos, funciones) se repiten
+en todos los caminos, solo cambia el lenguaje y el ritmo.
 
 <a id="camino-facultad"></a>
 ## Camino 1: Preparación para la facultad
@@ -233,24 +79,19 @@ Crear y publicar una página web completa y adaptable a celulares.
 
 ## Camino 3: Python y automatización
 
-**Temas:**
-
-1. Fundamentos de Python.
-2. Listas y diccionarios.
-3. Funciones.
-4. Archivos de texto, CSV y JSON.
-5. Manejo de errores.
-6. Automatización de archivos.
-7. Excel con Python.
-8. Consumo de APIs.
+Plan completo (13 semanas de base + especialización): [Python/README.md](Python/README.md)
 
 **Objetivo final:**
-Crear un programa que automatice una tarea real de la persona.
+Crear un programa que automatice una tarea real de la persona (o, si elige la especialización
+de Datos, analizar un dataset y presentar conclusiones).
 
 ---
 
 <a id="camino-datos"></a>
 ## Camino 4: Datos
+
+Comparte la base de Python: hacer las semanas 1-13 de [Python/README.md](Python/README.md) y
+elegir la especialización "Datos" ahí mismo, en vez de repetir los fundamentos.
 
 **Temas:**
 
@@ -268,6 +109,7 @@ Analizar un conjunto de datos y presentar conclusiones claras.
 
 ---
 
+<a id="camino-poo"></a>
 ## Camino 5: Programación orientada a objetos
 
 **Temas:**
@@ -349,4 +191,4 @@ Para cada semana se puede registrar:
 * [ ] Apliqué el contenido en mi proyecto.
 * [ ] Anoté las dudas que todavía tengo.
 
-La idea central del plan sería: **primero descubrir, después construir una base y recién entonces elegir una especialización**. Así la persona no se abruma y puede ver avances concretos desde las primeras semanas.
+La idea central del plan sería: **elegir un camino cuanto antes y avanzar despacio dentro de él**, en el lenguaje que se va a usar de verdad. Así la persona no se abruma y puede ver avances concretos desde las primeras semanas.

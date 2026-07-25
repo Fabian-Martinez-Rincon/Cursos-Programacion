@@ -1,5 +1,5 @@
 """
-Semana 7 - Ejercicio 3: Confirmar que el entorno virtual y pip funcionan.
+Semana 12 - Ejercicio 3: Confirmar que el entorno virtual y pip funcionan.
 
 Requiere haber instalado requests dentro del entorno virtual:
     pip install requests

@@ -1,5 +1,5 @@
 """
-Semana 8: Consumo de APIs y HTTP
+Semana 13: Consumo de APIs y HTTP
 
 Requiere: pip install requests
 

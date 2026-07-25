@@ -1,5 +1,5 @@
 """
-Semana 6: Programacion orientada a objetos en Python
+Semana 11: Programacion orientada a objetos en Python
 
 Ejercicio 1: Clase Persona con nombre y edad, y un metodo saludar().
 Ejercicio 2: Clase Contacto y clase Agenda (lista de contactos) con agregar/buscar.

@@ -1,4 +1,4 @@
-# Semana 7: Paquetes del ecosistema y control de versiones
+# Semana 12: Paquetes del ecosistema y control de versiones
 
 Esta semana es mas practica/consola que de codigo. Los "ejercicios" son pasos a seguir y verificar.
 
@@ -31,7 +31,7 @@ pip freeze > requirements.txt
 
 ## Ejercicio 3: Probar que el paquete instalado funciona
 
-Ver [semana7_prueba_requests.py](semana7_prueba_requests.py) — un script minimo que usa `requests`
+Ver [semana12_prueba_requests.py](semana12_prueba_requests.py) — un script minimo que usa `requests`
 para confirmar que la instalacion funciono.
 
 ## Ejercicio 4: Iniciar un repositorio Git

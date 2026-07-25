@@ -1,22 +1,26 @@
 # Plan de estudio: Python
 
-Continúa el tronco común del [README.md](../README.md) raíz. 8 semanas de base (4hs/semana) + una especialización a elección.
+Camino completo desde cero: no requiere haber programado antes en otro lenguaje. 13 semanas de base (4hs/semana) + una especialización a elección.
 
 ## Semanas
 
-| # | Tema | Proyecto de la semana | Ejercicios |
-|---|------|------------------------|------------|
-| 1 | Entorno y sintaxis básica | Calculadora simple | [semana1](ejercicios/semana1_entorno_sintaxis.py) |
-| 2 | Condicionales y ciclos | Juego de adivinar un número | [semana2](ejercicios/semana2_condicionales_ciclos.py) |
-| 3 | Listas, diccionarios y sets | Agenda de contactos | [semana3](ejercicios/semana3_estructuras_de_datos.py) |
-| 4 | Funciones y manejo de errores | Calculadora con funciones | [semana4](ejercicios/semana4_funciones_y_errores.py) |
-| 5 | Archivos (txt, CSV, JSON) | Registro de gastos | [semana5](ejercicios/semana5_archivos.py) |
-| 6 | Programación orientada a objetos | Agenda con clases | [semana6](ejercicios/semana6_poo.py) |
-| 7 | pip, entornos virtuales y Git | Subir un proyecto a GitHub | [semana7](ejercicios/semana7_paquetes_y_git.md) |
-| 8 | Consumo de APIs | Consultar una API pública | [semana8](ejercicios/semana8_apis.py) |
+1. **Conocer la computadora** — [Ejercicios](ejercicios/semana1_conocer_la_computadora.md)
+2. **Entorno y primer programa** — [Ejercicios](ejercicios/semana2_entorno_y_primer_programa.py)
+3. **Variables y tipos de datos** — [Ejercicios](ejercicios/semana3_variables_tipos_datos.py)
+4. **Condicionales** — [Ejercicios](ejercicios/semana4_condicionales.py)
+5. **Repeticiones (while y for)** — [Ejercicios](ejercicios/semana5_repeticiones.py)
+6. **Contadores y acumuladores** — [Ejercicios](ejercicios/semana6_contadores_acumuladores.py)
+7. **Listas, diccionarios y sets** — [Ejercicios](ejercicios/semana7_estructuras_de_datos.py)
+8. **Funciones y manejo de errores** — [Ejercicios](ejercicios/semana8_funciones_y_errores.py)
+9. **Proyecto integrador** — [Ejercicios](ejercicios/semana9_proyecto_integrador.py)
+10. **Archivos (txt, CSV, JSON)** — [Ejercicios](ejercicios/semana10_archivos.py)
+11. **Programación orientada a objetos** — [Ejercicios](ejercicios/semana11_poo.py)
+12. **pip, entornos virtuales y Git** — [Ejercicios](ejercicios/semana12_paquetes_y_git.md)
+13. **Consumo de APIs** — [Ejercicios](ejercicios/semana13_apis.py)
+
+## Especialización (elegir una, después de la semana 13)
 
 <a id="especializacion"></a>
-## Especialización (elegir una, después de la semana 8)
 
 * **Automatización:** archivos, Excel, tareas repetitivas.
 * **Datos:** pandas, SQL, gráficos.

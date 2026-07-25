@@ -1,5 +1,5 @@
 """
-Semana 3: Estructuras de datos
+Semana 7: Estructuras de datos
 
 Ejercicio 1: Lista de compras: agregar elementos y mostrarlos todos.
 Ejercicio 2: Buscar si un producto esta en la lista de compras.
