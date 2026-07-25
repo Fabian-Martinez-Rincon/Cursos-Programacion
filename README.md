@@ -30,6 +30,7 @@ Esto permite elegir un recorrido adecuado y evitar que empiece con tecnologías 
 | Quiero crear videojuegos               | Lógica + Python + Pygame                                      |
 | Quiero aprender computación general    | Sistema operativo + archivos + internet + programación básica |
 
+<a id="tronco-comun"></a>
 # Tronco común: primeras 8 semanas
 
 Todos deberían comenzar con una base similar antes de elegir una especialización.
@@ -188,6 +189,7 @@ Resolver un problema completo aplicando variables, condicionales, ciclos y funci
 
 Después del tronco común, la persona puede elegir un recorrido.
 
+<a id="camino-facultad"></a>
 ## Camino 1: Preparación para la facultad
 
 Especialmente útil para CADP, AyP1 o Programación 1.
@@ -209,6 +211,7 @@ Poder leer un enunciado, identificar las estructuras necesarias y desarrollar un
 
 ---
 
+<a id="camino-web"></a>
 ## Camino 2: Desarrollo web
 
 **Temas:**
@@ -246,6 +249,7 @@ Crear un programa que automatice una tarea real de la persona.
 
 ---
 
+<a id="camino-datos"></a>
 ## Camino 4: Datos
 
 **Temas:**
