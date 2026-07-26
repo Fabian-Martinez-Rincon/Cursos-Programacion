@@ -7,11 +7,9 @@
 * [Etapa 1: Conocer a la persona](#etapa-1)
 * [Posibles motivaciones y recorridos](#motivaciones)
 * [Caminos](#caminos)
-  * [Camino 1: Preparación para la facultad](#camino-facultad)
-  * [Camino 2: Desarrollo web](#camino-web)
-  * [Camino 3: Python y automatización](#camino-python)
-  * [Camino 4: Datos](#camino-datos)
-  * [Camino 5: Java](#camino-java)
+  * [Camino 1: Desarrollo web](#camino-web)
+  * [Camino 2: Python y automatización](#camino-python)
+  * [Camino 3: Java](#camino-java)
 * [Objetivos por nivel](#objetivos-por-nivel)
 * [Rutina semanal recomendada](#rutina-semanal)
 * [Seguimiento de objetivos](#seguimiento-objetivos)
@@ -36,10 +34,8 @@ Esto permite elegir un recorrido adecuado y evitar que empiece con tecnologías 
 ## Posibles motivaciones y recorridos
 
 * **Quiero descubrir si me gusta programar** — Fundamentos + proyectos cortos.
-* **Quiero prepararme para la facultad** — Lógica + Pascal + resolución de problemas.
 * **Quiero crear páginas web** — HTML + CSS + JavaScript.
-* **Quiero trabajar como programador** — Python, Java o JavaScript + Git + SQL.
-* **Quiero trabajar con datos** — Python + SQL + Pandas.
+* **Quiero trabajar como programador** — Python, Java o JavaScript + Git.
 * **Quiero automatizar tareas** — Python + archivos + Excel.
 * **Quiero crear videojuegos** — Lógica + Python + Pygame.
 * **Quiero aprender computación general** — Sistema operativo + archivos + internet + programación básica.
@@ -52,30 +48,8 @@ lenguaje que se va a usar (evita enseñar la lógica dos veces, una genérica y 
 lenguaje elegido). Los temas base (variables, condicionales, ciclos, funciones) se repiten
 en todos los caminos, solo cambia el lenguaje y el ritmo.
 
-<a id="camino-facultad"></a>
-## Camino 1: Preparación para la facultad
-
-Especialmente útil para CADP, AyP1 o Programación 1.
-
-**Temas:**
-
-1. Pascal y pseudocódigo.
-2. Condicionales y ciclos.
-3. Contadores, acumuladores, máximos y mínimos.
-4. Registros.
-5. Vectores.
-6. Ordenamientos y búsquedas.
-7. Listas enlazadas.
-8. Recursión.
-9. Resolución de parciales.
-
-**Objetivo final:**
-Poder leer un enunciado, identificar las estructuras necesarias y desarrollar una solución completa en Pascal.
-
----
-
 <a id="camino-web"></a>
-## Camino 2: Desarrollo web
+## Camino 1: Desarrollo web
 
 Plan completo (13 semanas de base): [Web/README.md](Web/README.md)
 
@@ -97,7 +71,7 @@ Crear y publicar una página web completa y adaptable a celulares.
 ---
 
 <a id="camino-python"></a>
-## Camino 3: Python y automatización
+## Camino 2: Python y automatización
 
 Plan completo (13 semanas de base + especialización): [Python/README.md](Python/README.md)
 
@@ -107,30 +81,8 @@ de Datos, analizar un dataset y presentar conclusiones).
 
 ---
 
-<a id="camino-datos"></a>
-## Camino 4: Datos
-
-Comparte la base de Python: hacer las semanas 1-13 de [Python/README.md](Python/README.md) y
-elegir la especialización "Datos" ahí mismo, en vez de repetir los fundamentos.
-
-**Temas:**
-
-1. Python.
-2. SQL.
-3. Bases de datos.
-4. Pandas o Polars.
-5. Limpieza de datos.
-6. Análisis exploratorio.
-7. Gráficos.
-8. Presentación de resultados.
-
-**Objetivo final:**
-Analizar un conjunto de datos y presentar conclusiones claras.
-
----
-
 <a id="camino-java"></a>
-## Camino 5: Java, orientado a objetos
+## Camino 3: Java, orientado a objetos
 
 Plan completo: [Java/README.md](Java/README.md). El eje del camino es la Programación
 Orientada a Objetos (semana 11, con teoría en PDF y ejercicios propios en [POO/readme.md](POO/readme.md) —
