@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+  Semana 9: Formularios y validacion
+
+  Ejercicio 1: Formulario con distintos tipos de input.
+  Ejercicio 2: Evitar el envio por defecto y leer los valores (preventDefault).
+  Ejercicio 3: Validaciones nativas de HTML (required, min, max, pattern).
+  Ejercicio 4: Validacion manual con JavaScript y mensajes de error.
+
+  Abrir con Live Server (o doble clic) y probar el formulario.
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana 9: Formularios</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    label { display: block; margin-top: 10px; }
+    .error { color: crimson; font-size: 14px; }
+    #resultado { margin-top: 15px; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>Formularios</h1>
+
+  <!-- Ejercicio 1: tipos de input -->
+  <!-- Ejercicio 3: validaciones nativas con required, min/max y pattern -->
+  <form id="formularioRegistro">
+    <label>
+      Nombre:
+      <input type="text" id="nombre" required minlength="2">
+    </label>
+
+    <label>
+      Email:
+      <input type="email" id="email" required>
+    </label>
+
+    <label>
+      Edad:
+      <input type="number" id="edad" min="1" max="120" required>
+    </label>
+
+    <label>
+      Contrasena (solo letras y numeros, minimo 6 caracteres):
+      <input type="password" id="contrasena" pattern="[A-Za-z0-9]{6,}" required>
+    </label>
+
+    <label>
+      <input type="checkbox" id="terminos" required>
+      Acepto los terminos y condiciones
+    </label>
+
+    <button type="submit">Registrarme</button>
+  </form>
+
+  <p id="errores" class="error"></p>
+  <p id="resultado"></p>
+
+  <script>
+    // ---------------------------------------------------------
+    // Ejercicio 2: preventDefault + leer valores
+    // Ejercicio 4: validacion manual adicional en JavaScript
+    // ---------------------------------------------------------
+    document.getElementById("formularioRegistro").addEventListener("submit", function (evento) {
+      evento.preventDefault(); // evita que la pagina se recargue
+
+      const nombre = document.getElementById("nombre").value;
+      const email = document.getElementById("email").value;
+      const edad = Number(document.getElementById("edad").value);
+
+      const errores = document.getElementById("errores");
+      const resultado = document.getElementById("resultado");
+      errores.textContent = "";
+      resultado.textContent = "";
+
+      // El navegador ya valida required/min/max/pattern, pero se puede
+      // agregar una regla de negocio propia (ejemplo: edad minima 13).
+      if (edad < 13) {
+        errores.textContent = "Debes tener al menos 13 anios para registrarte.";
+        return;
+      }
+
+      resultado.textContent = `Bienvenido/a ${nombre}! Te registraste con ${email}.`;
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

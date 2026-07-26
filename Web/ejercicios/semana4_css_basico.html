@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+  Semana 4: CSS basico
+
+  Ejercicio 1: Selectores (etiqueta, clase, id).
+  Ejercicio 2: Colores, fuentes y texto.
+  Ejercicio 3: Modelo de caja (margin, padding, border).
+  Ejercicio 4: Pseudo-clases (hover).
+
+  Abrir este archivo con Live Server (o doble clic) para verlo en el navegador.
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana 4: CSS basico</title>
+  <style>
+    /* ===========================================================
+       Ejercicio 1: selectores
+       - selector de etiqueta: aplica a TODOS los <p>
+       - selector de clase (.destacado): aplica a quien tenga class="destacado"
+       - selector de id (#titulo-principal): aplica a un unico elemento
+    =========================================================== */
+    p {
+      font-family: Arial, sans-serif;
+    }
+
+    .destacado {
+      color: darkorange;
+      font-weight: bold;
+    }
+
+    #titulo-principal {
+      color: navy;
+    }
+
+    /* ===========================================================
+       Ejercicio 2: colores, fuentes y texto
+    =========================================================== */
+    .tarjeta-colores {
+      background-color: #f0f0f0;
+      font-family: "Courier New", monospace;
+      font-size: 18px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    /* ===========================================================
+       Ejercicio 3: modelo de caja
+       Cada elemento es una caja con: contenido, padding (espacio
+       interno), border (borde) y margin (espacio externo).
+    =========================================================== */
+    .caja {
+      width: 200px;
+      padding: 15px;
+      border: 3px solid teal;
+      margin: 20px;
+      background-color: #e0f7f7;
+    }
+
+    /* ===========================================================
+       Ejercicio 4: pseudo-clases
+       :hover se aplica cuando el mouse pasa por encima
+    =========================================================== */
+    .boton {
+      padding: 10px 20px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .boton:hover {
+      background-color: #2a5db0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="titulo-principal">CSS basico</h1>
+  <p>Este parrafo usa el selector de etiqueta <code>p</code>.</p>
+  <p class="destacado">Este parrafo usa la clase <code>.destacado</code>.</p>
+
+  <h2>Colores y fuentes</h2>
+  <div class="tarjeta-colores">Texto con estilo distinto</div>
+
+  <h2>Modelo de caja</h2>
+  <div class="caja">Esta es una caja con padding, border y margin.</div>
+
+  <h2>Pseudo-clases</h2>
+  <button class="boton">Pasa el mouse por aca</button>
+
+</body>
+</html>

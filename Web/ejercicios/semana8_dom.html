@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+  Semana 8: Manipulacion del DOM
+
+  Ejercicio 1: Seleccionar un elemento y cambiar su texto.
+  Ejercicio 2: Cambiar un estilo desde JavaScript.
+  Ejercicio 3: Crear y agregar elementos nuevos (lista de tareas).
+  Ejercicio 4: Eliminar un elemento.
+  Ejercicio 5: Eventos de click.
+
+  Abrir con Live Server (o doble clic) y probar los botones.
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana 8: Manipulacion del DOM</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    li { margin: 5px 0; }
+    button { margin: 5px; }
+  </style>
+</head>
+<body>
+
+  <h1>Manipulacion del DOM</h1>
+
+  <!-- Ejercicio 1 y 2: seleccionar y cambiar texto/estilo -->
+  <h2>Ejercicio 1 y 2</h2>
+  <p id="mensaje">Este texto va a cambiar</p>
+  <button onclick="cambiarMensaje()">Cambiar texto y color</button>
+
+  <!-- Ejercicio 3 y 4: lista de tareas dinamica -->
+  <h2>Ejercicio 3 y 4: lista de tareas</h2>
+  <input type="text" id="nuevaTarea" placeholder="Escribir una tarea">
+  <button onclick="agregarTarea()">Agregar</button>
+  <ul id="listaTareas"></ul>
+
+  <!-- Ejercicio 5: contador con eventos -->
+  <h2>Ejercicio 5: contador de clicks</h2>
+  <p>Clicks: <span id="contador">0</span></p>
+  <button id="botonContador">Hacer click</button>
+
+  <script>
+    // ---------------------------------------------------------
+    // Ejercicio 1 y 2: seleccionar y cambiar texto/estilo
+    // ---------------------------------------------------------
+    function cambiarMensaje() {
+      const mensaje = document.getElementById("mensaje");
+      mensaje.textContent = "El texto cambio con JavaScript!";
+      mensaje.style.color = "teal";
+      mensaje.style.fontWeight = "bold";
+    }
+
+    // ---------------------------------------------------------
+    // Ejercicio 3 y 4: crear, agregar y eliminar elementos
+    // ---------------------------------------------------------
+    function agregarTarea() {
+      const input = document.getElementById("nuevaTarea");
+      const texto = input.value.trim();
+      if (texto === "") return;
+
+      const li = document.createElement("li");
+      li.textContent = texto;
+
+      const botonEliminar = document.createElement("button");
+      botonEliminar.textContent = "Eliminar";
+      botonEliminar.onclick = function () {
+        li.remove();
+      };
+
+      li.appendChild(botonEliminar);
+      document.getElementById("listaTareas").appendChild(li);
+      input.value = "";
+    }
+
+    // ---------------------------------------------------------
+    // Ejercicio 5: eventos de click con addEventListener
+    // ---------------------------------------------------------
+    let clicks = 0;
+    document.getElementById("botonContador").addEventListener("click", function () {
+      clicks++;
+      document.getElementById("contador").textContent = clicks;
+    });
+  </script>
+
+</body>
+</html>

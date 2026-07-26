@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+  Semana 11: Consumo de APIs con fetch
+
+  Ejercicio 1: Hacer un GET simple a una API publica y mostrar el resultado.
+  Ejercicio 2: Manejar errores de conexion con try/catch.
+  Ejercicio 3: Consultar varios recursos y mostrarlos en una lista (DOM).
+  Ejercicio 4: Filtrar los resultados segun una condicion (solo completados).
+
+  Abrir con Live Server (fetch necesita que la pagina se sirva por http,
+  no funciona bien con doble clic directo en el archivo en algunos navegadores).
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana 11: Consumo de APIs</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    li.completada { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+
+  <h1>Consumo de APIs</h1>
+
+  <h2>Ejercicio 1: una tarea</h2>
+  <button onclick="obtenerUnaTarea()">Traer una tarea</button>
+  <p id="unaTarea"></p>
+
+  <h2>Ejercicio 3 y 4: lista de tareas</h2>
+  <button onclick="obtenerTareas()">Traer tareas del usuario 1</button>
+  <ul id="listaTareas"></ul>
+  <p id="resumen"></p>
+
+  <script>
+    const BASE_URL = "https://jsonplaceholder.typicode.com";
+
+    // ---------------------------------------------------------
+    // Ejercicio 1: GET simple
+    // Ejercicio 2: manejo de errores con try/catch
+    // ---------------------------------------------------------
+    async function obtenerUnaTarea() {
+      const parrafo = document.getElementById("unaTarea");
+      parrafo.textContent = "Cargando...";
+      try {
+        const respuesta = await fetch(`${BASE_URL}/todos/1`);
+        if (!respuesta.ok) throw new Error(`Error HTTP: ${respuesta.status}`);
+        const datos = await respuesta.json();
+        parrafo.textContent = `Tarea: ${datos.title} - Completada: ${datos.completed}`;
+      } catch (error) {
+        parrafo.textContent = `Error al conectar con la API: ${error.message}`;
+      }
+    }
+
+    // ---------------------------------------------------------
+    // Ejercicio 3: varios recursos, mostrados en el DOM
+    // Ejercicio 4: filtrar las completadas
+    // ---------------------------------------------------------
+    async function obtenerTareas() {
+      const lista = document.getElementById("listaTareas");
+      const resumen = document.getElementById("resumen");
+      lista.innerHTML = "";
+      resumen.textContent = "";
+
+      try {
+        const respuesta = await fetch(`${BASE_URL}/todos?userId=1`);
+        if (!respuesta.ok) throw new Error(`Error HTTP: ${respuesta.status}`);
+        const tareas = await respuesta.json();
+
+        tareas.forEach((tarea) => {
+          const li = document.createElement("li");
+          li.textContent = tarea.title;
+          if (tarea.completed) li.classList.add("completada");
+          lista.appendChild(li);
+        });
+
+        const completadas = tareas.filter((tarea) => tarea.completed);
+        resumen.textContent = `Tareas completadas: ${completadas.length} de ${tareas.length}`;
+      } catch (error) {
+        resumen.textContent = `Error al conectar con la API: ${error.message}`;
+      }
+    }
+  </script>
+
+</body>
+</html>

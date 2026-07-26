@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+  Semana 3: HTML basico
+
+  Ejercicio 1: Encabezados y parrafos.
+  Ejercicio 2: Listas ordenadas y desordenadas.
+  Ejercicio 3: Links e imagenes.
+  Ejercicio 4: Tabla simple.
+  Ejercicio 5: Etiquetas semanticas (header, nav, main, footer).
+
+  Abrir este archivo con Live Server (o doble clic) para verlo en el navegador.
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Semana 3: HTML basico</title>
+</head>
+<body>
+
+  <!-- ===========================================================
+       Ejercicio 1: encabezados y parrafos
+  =========================================================== -->
+  <h1>Encabezados y parrafos</h1>
+  <h2>Este es un subtitulo (h2)</h2>
+  <h3>Y este un sub-subtitulo (h3)</h3>
+  <p>Un parrafo es el bloque de texto mas comun. Se puede poner texto en
+    <strong>negrita</strong> o en <em>cursiva</em> dentro del mismo parrafo.</p>
+
+  <!-- ===========================================================
+       Ejercicio 2: listas
+  =========================================================== -->
+  <h2>Listas</h2>
+  <p>Lista desordenada (ul) de lenguajes de programacion:</p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <p>Lista ordenada (ol) de pasos para publicar una pagina:</p>
+  <ol>
+    <li>Escribir el HTML</li>
+    <li>Agregar estilos con CSS</li>
+    <li>Subir el proyecto a GitHub</li>
+  </ol>
+
+  <!-- ===========================================================
+       Ejercicio 3: links e imagenes
+  =========================================================== -->
+  <h2>Links e imagenes</h2>
+  <p>Un link a otra pagina: <a href="https://developer.mozilla.org/es/" target="_blank">MDN Web Docs</a></p>
+  <p>Un link interno a otra parte de esta misma pagina: <a href="#tabla">ir a la tabla</a></p>
+  <img src="https://developer.mozilla.org/favicon-48x48.png" alt="Logo de MDN" width="48" height="48">
+
+  <!-- ===========================================================
+       Ejercicio 4: tabla simple
+  =========================================================== -->
+  <h2 id="tabla">Tabla</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Lenguaje</th>
+        <th>Se usa para</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML</td>
+        <td>Estructura de la pagina</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Estilos</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Comportamiento e interactividad</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ===========================================================
+       Ejercicio 5: etiquetas semanticas
+       Estas etiquetas no se ven distinto a un div, pero le dan
+       significado a la estructura de la pagina (mejor para SEO
+       y accesibilidad).
+  =========================================================== -->
+  <h2>Estructura semantica</h2>
+  <header>
+    <h3>Encabezado del sitio (header)</h3>
+    <nav>
+      <a href="#">Inicio</a> |
+      <a href="#">Sobre mi</a> |
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <p>Contenido principal de la pagina (main).</p>
+  </main>
+  <footer>
+    <p>Pie de pagina (footer) - Semana 3, plan de Desarrollo web.</p>
+  </footer>
+
+</body>
+</html>

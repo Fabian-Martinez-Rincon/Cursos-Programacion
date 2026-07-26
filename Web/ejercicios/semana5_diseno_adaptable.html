@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+  Semana 5: Diseno adaptable (responsive)
+
+  Ejercicio 1: Flexbox para acomodar elementos en fila/columna.
+  Ejercicio 2: Grid para una grilla de tarjetas.
+  Ejercicio 3: Media queries para adaptar el layout a pantallas chicas.
+
+  Abrir con Live Server y probar achicando la ventana del navegador
+  (o con las herramientas de desarrollador en modo "vista movil", F12).
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana 5: Diseno adaptable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* ===========================================================
+       Ejercicio 1: Flexbox
+       display: flex pone los hijos en fila (por defecto) y permite
+       repartir el espacio entre ellos con justify-content.
+    =========================================================== */
+    .barra-flex {
+      display: flex;
+      justify-content: space-between;
+      background-color: #333;
+      padding: 10px;
+    }
+
+    .barra-flex a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* ===========================================================
+       Ejercicio 2: Grid
+       display: grid con grid-template-columns define una grilla
+       con 3 columnas iguales.
+    =========================================================== */
+    .grilla-tarjetas {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .tarjeta {
+      background-color: #e0f7f7;
+      border: 1px solid teal;
+      padding: 15px;
+      text-align: center;
+    }
+
+    /* ===========================================================
+       Ejercicio 3: media queries
+       Si la pantalla mide menos de 600px de ancho, la grilla pasa
+       a tener 1 sola columna (se apilan las tarjetas).
+    =========================================================== */
+    @media (max-width: 600px) {
+      .grilla-tarjetas {
+        grid-template-columns: 1fr;
+      }
+
+      .barra-flex {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Diseno adaptable</h1>
+
+  <h2>Ejercicio 1: barra de navegacion con Flexbox</h2>
+  <nav class="barra-flex">
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Sobre mi</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <h2>Ejercicio 2 y 3: grilla de tarjetas con Grid + media query</h2>
+  <p>Achica la ventana del navegador: la grilla pasa de 3 columnas a 1.</p>
+  <div class="grilla-tarjetas">
+    <div class="tarjeta">Tarjeta 1</div>
+    <div class="tarjeta">Tarjeta 2</div>
+    <div class="tarjeta">Tarjeta 3</div>
+  </div>
+
+</body>
+</html>

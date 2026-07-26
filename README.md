@@ -2,6 +2,21 @@
 
 # Plan inicial: Empezar en informática desde cero
 
+## Índice
+
+* [Etapa 1: Conocer a la persona](#etapa-1)
+* [Posibles motivaciones y recorridos](#motivaciones)
+* [Caminos](#caminos)
+  * [Camino 1: Preparación para la facultad](#camino-facultad)
+  * [Camino 2: Desarrollo web](#camino-web)
+  * [Camino 3: Python y automatización](#camino-python)
+  * [Camino 4: Datos](#camino-datos)
+  * [Camino 5: Java](#camino-java)
+* [Objetivos por nivel](#objetivos-por-nivel)
+* [Rutina semanal recomendada](#rutina-semanal)
+* [Seguimiento de objetivos](#seguimiento-objetivos)
+
+<a id="etapa-1"></a>
 ## Etapa 1: Conocer a la persona
 
 Antes de comenzar, conviene hacer una pequeña entrevista:
@@ -17,17 +32,19 @@ Antes de comenzar, conviene hacer una pequeña entrevista:
 
 Esto permite elegir un recorrido adecuado y evitar que empiece con tecnologías que todavía no necesita.
 
+<a id="motivaciones"></a>
 ## Posibles motivaciones y recorridos
 
 * **Quiero descubrir si me gusta programar** — Fundamentos + proyectos cortos.
 * **Quiero prepararme para la facultad** — Lógica + Pascal + resolución de problemas.
 * **Quiero crear páginas web** — HTML + CSS + JavaScript.
-* **Quiero trabajar como programador** — Python o JavaScript + Git + SQL.
+* **Quiero trabajar como programador** — Python, Java o JavaScript + Git + SQL.
 * **Quiero trabajar con datos** — Python + SQL + Pandas.
 * **Quiero automatizar tareas** — Python + archivos + Excel.
 * **Quiero crear videojuegos** — Lógica + Python + Pygame.
 * **Quiero aprender computación general** — Sistema operativo + archivos + internet + programación básica.
 
+<a id="caminos"></a>
 # Caminos
 
 No hay un tronco común único: cada camino empieza desde cero, pero directamente en el
@@ -60,6 +77,8 @@ Poder leer un enunciado, identificar las estructuras necesarias y desarrollar un
 <a id="camino-web"></a>
 ## Camino 2: Desarrollo web
 
+Plan completo (13 semanas de base): [Web/README.md](Web/README.md)
+
 **Temas:**
 
 1. HTML.
@@ -77,6 +96,7 @@ Crear y publicar una página web completa y adaptable a celulares.
 
 ---
 
+<a id="camino-python"></a>
 ## Camino 3: Python y automatización
 
 Plan completo (13 semanas de base + especialización): [Python/README.md](Python/README.md)
@@ -109,23 +129,20 @@ Analizar un conjunto de datos y presentar conclusiones claras.
 
 ---
 
-<a id="camino-poo"></a>
-## Camino 5: Programación orientada a objetos
+<a id="camino-java"></a>
+## Camino 5: Java, orientado a objetos
 
-**Temas:**
-
-1. Objetos y clases.
-2. Atributos y métodos.
-3. Encapsulamiento.
-4. Constructores.
-5. Herencia.
-6. Polimorfismo.
-7. Colecciones.
-8. Proyecto en Java o Python.
+Plan completo: [Java/README.md](Java/README.md). El eje del camino es la Programación
+Orientada a Objetos (semana 11, con teoría en PDF y ejercicios propios en [POO/readme.md](POO/readme.md) —
+no es una sola semana, es su propio curso completo): las semanas 1-10 son la base de
+lógica y sintaxis para llegar preparado, y la especialización en Backend con Spring Boot
+(semanas 12-13 + Maven/Git) es esa misma POO aplicada a un framework real.
 
 **Objetivo final:**
-Diseñar una aplicación pequeña utilizando clases relacionadas.
+Dominar el paradigma orientado a objetos (clases, encapsulamiento, herencia, polimorfismo)
+usando Java como vehículo, y aplicarlo en una API REST simple con Spring Boot.
 
+<a id="objetivos-por-nivel"></a>
 # Objetivos por nivel
 
 ## Nivel inicial
@@ -155,6 +172,7 @@ Diseñar una aplicación pequeña utilizando clases relacionadas.
 * Organizar correctamente el código.
 * Publicar y presentar un proyecto.
 
+<a id="rutina-semanal"></a>
 # Rutina semanal recomendada
 
 Para alguien que dispone de cuatro horas por semana:
@@ -170,6 +188,7 @@ La proporción ideal sería aproximadamente:
 * 50 % práctica.
 * 20 % proyecto personal.
 
+<a id="seguimiento-objetivos"></a>
 # Seguimiento de objetivos
 
 Cada objetivo debería ser pequeño y comprobable.
