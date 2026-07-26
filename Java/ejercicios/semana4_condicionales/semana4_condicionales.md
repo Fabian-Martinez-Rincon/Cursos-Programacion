@@ -1,0 +1,76 @@
+# Semana 4: Condicionales
+
+## Ejercicio 1: Mayor de edad
+
+```java
+System.out.print("Cuantos anios tenes? ");
+int edad = Integer.parseInt(sc.nextLine());
+if (edad >= 18) {
+    System.out.println("Sos mayor de edad");
+} else {
+    System.out.println("Sos menor de edad");
+}
+```
+
+## Ejercicio 2: Aprobo la materia
+
+```java
+System.out.print("Ingresa tu nota: ");
+double nota = Double.parseDouble(sc.nextLine());
+if (nota >= 6) {
+    System.out.println("Aprobaste la materia");
+} else {
+    System.out.println("No aprobaste la materia");
+}
+```
+
+## Ejercicio 3: Mayor de dos numeros
+
+```java
+System.out.print("Primer numero: ");
+double numero1 = Double.parseDouble(sc.nextLine());
+System.out.print("Segundo numero: ");
+double numero2 = Double.parseDouble(sc.nextLine());
+
+if (numero1 > numero2) {
+    System.out.println("El mayor es " + numero1);
+} else if (numero2 > numero1) {
+    System.out.println("El mayor es " + numero2);
+} else {
+    System.out.println("Son iguales");
+}
+```
+
+## Ejercicio 4: Condiciones anidadas
+
+```java
+System.out.print("Ingresa tu nota: ");
+double nota = Double.parseDouble(sc.nextLine());
+
+if (nota >= 9) {
+    System.out.println("Excelente");
+} else {
+    if (nota >= 6) {
+        System.out.println("Aprobado");
+    } else {
+        System.out.println("Desaprobado");
+    }
+}
+```
+
+## Ejercicio 5: Operadores && / ||
+
+Verificar si alguien puede votar (mayor de edad y con DNI).
+
+```java
+System.out.print("Cuantos anios tenes? ");
+int edad = Integer.parseInt(sc.nextLine());
+System.out.print("Tenes DNI? (si/no) ");
+boolean tieneDni = sc.nextLine().equals("si");
+
+if (edad >= 16 && tieneDni) {
+    System.out.println("Podes votar");
+} else {
+    System.out.println("Todavia no podes votar");
+}
+```

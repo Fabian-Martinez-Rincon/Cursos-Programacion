@@ -5,19 +5,19 @@ Camino completo desde cero: no requiere haber programado antes. 13 semanas de ba
 
 ## Semanas
 
-1. **Conocer la computadora** — [Actividad](ejercicios/semana1_conocer_la_computadora.md)
-2. **Entorno y primer HTML** — [Ejercicios](ejercicios/semana2_entorno_y_primer_html.md)
-3. **HTML: estructura y etiquetas** — [Ejercicios](ejercicios/semana3_html_basico.html)
-4. **CSS: selectores y estilos** — [Ejercicios](ejercicios/semana4_css_basico.html)
-5. **Diseño adaptable (Flexbox, Grid, media queries)** — [Ejercicios](ejercicios/semana5_diseno_adaptable.html)
-6. **JavaScript: variables, condicionales y ciclos** — [Ejercicios](ejercicios/semana6_variables_condicionales.js)
-7. **JavaScript: funciones y arrays** — [Ejercicios](ejercicios/semana7_funciones_arrays.js)
-8. **Manipulación del DOM** — [Ejercicios](ejercicios/semana8_dom.html)
-9. **Formularios y validación** — [Ejercicios](ejercicios/semana9_formularios.html)
-10. **Proyecto integrador** — [Ejemplo](ejercicios/semana10_proyecto_integrador.html)
-11. **Consumo de APIs (fetch)** — [Ejercicios](ejercicios/semana11_apis.html)
-12. **Git y GitHub** — [Ejercicios](ejercicios/semana12_git_y_github.md)
-13. **Publicación de una página** — [Ejercicios](ejercicios/semana13_publicacion.md)
+1. **Conocer la computadora** — [Actividad](ejercicios/semana1_conocer_la_computadora/semana1_conocer_la_computadora.md)
+2. **Entorno y primer HTML** — [Ejercicios](ejercicios/semana2_entorno_y_primer_html/semana2_entorno_y_primer_html.md)
+3. **HTML: estructura y etiquetas** — [Ejercicios](ejercicios/semana3_html_basico/semana3_html_basico.html)
+4. **CSS: selectores y estilos** — [Ejercicios](ejercicios/semana4_css_basico/semana4_css_basico.html)
+5. **Diseño adaptable (Flexbox, Grid, media queries)** — [Ejercicios](ejercicios/semana5_diseno_adaptable/semana5_diseno_adaptable.html)
+6. **JavaScript: variables, condicionales y ciclos** — [Ejercicios](ejercicios/semana6_variables_condicionales/semana6_variables_condicionales.js)
+7. **JavaScript: funciones y arrays** — [Ejercicios](ejercicios/semana7_funciones_arrays/semana7_funciones_arrays.js)
+8. **Manipulación del DOM** — [Ejercicios](ejercicios/semana8_dom/semana8_dom.html)
+9. **Formularios y validación** — [Ejercicios](ejercicios/semana9_formularios/semana9_formularios.html)
+10. **Proyecto integrador** — [Ejemplo](ejercicios/semana10_proyecto_integrador/semana10_proyecto_integrador.html)
+11. **Consumo de APIs (fetch)** — [Ejercicios](ejercicios/semana11_apis/semana11_apis.html)
+12. **Git y GitHub** — [Ejercicios](ejercicios/semana12_git_y_github/semana12_git_y_github.md)
+13. **Publicación de una página** — [Ejercicios](ejercicios/semana13_publicacion/semana13_publicacion.md)
 
 Las semanas 3, 4, 5, 8, 9, 10 y 11 son archivos `.html` con HTML + CSS + JS en el mismo
 archivo: se abren directamente en el navegador (doble clic, o mejor con la extensión

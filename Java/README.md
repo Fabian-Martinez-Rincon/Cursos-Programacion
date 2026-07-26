@@ -8,19 +8,19 @@ especialización Backend con Spring Boot.
 
 ## Semanas
 
-1. **Conocer la computadora** — [Ejercicios](ejercicios/semana1_conocer_la_computadora.md)
-2. **Entorno y primer programa** — [Ejercicios](ejercicios/Semana02Entorno.java)
-3. **Variables y tipos de datos** — [Ejercicios](ejercicios/Semana03Variables.java)
-4. **Condicionales** — [Ejercicios](ejercicios/Semana04Condicionales.java)
-5. **Repeticiones (while y for)** — [Ejercicios](ejercicios/Semana05Repeticiones.java)
-6. **Contadores y acumuladores** — [Ejercicios](ejercicios/Semana06Contadores.java)
-7. **Arrays, ArrayList y HashMap** — [Ejercicios](ejercicios/Semana07Estructuras.java)
-8. **Métodos y manejo de excepciones** — [Ejercicios](ejercicios/Semana08Funciones.java)
-9. **Proyecto integrador** — [Ejercicios](ejercicios/Semana09ProyectoIntegrador.java)
-10. **Archivos (txt, CSV, Properties)** — [Ejercicios](ejercicios/Semana10Archivos.java)
+1. **Conocer la computadora** — [Ejercicios](ejercicios/semana1_conocer_la_computadora/semana1_conocer_la_computadora.md)
+2. **Entorno y primer programa** — [Ejercicios](ejercicios/semana2_entorno_y_primer_programa/semana2_entorno_y_primer_programa.md)
+3. **Variables y tipos de datos** — [Ejercicios](ejercicios/semana3_variables_tipos_datos/semana3_variables_tipos_datos.md)
+4. **Condicionales** — [Ejercicios](ejercicios/semana4_condicionales/semana4_condicionales.md)
+5. **Repeticiones (while y for)** — [Ejercicios](ejercicios/semana5_repeticiones/semana5_repeticiones.md)
+6. **Contadores y acumuladores** — [Ejercicios](ejercicios/semana6_contadores_acumuladores/semana6_contadores_acumuladores.md)
+7. **Arrays, ArrayList y HashMap** — [Ejercicios](ejercicios/semana7_estructuras_de_datos/semana7_estructuras_de_datos.md)
+8. **Métodos y manejo de excepciones** — [Ejercicios](ejercicios/semana8_funciones_y_errores/semana8_funciones_y_errores.md)
+9. **Proyecto integrador** — [Ejercicios](ejercicios/semana9_proyecto_integrador/semana9_proyecto_integrador.md)
+10. **Archivos (txt, CSV, Properties)** — [Ejercicios](ejercicios/semana10_archivos/semana10_archivos.md)
 11. **Programación orientada a objetos (eje del camino)** — no es una sola semana: es su propio curso completo, con teoría en PDF y ejercicios, en [POO/readme.md](../POO/readme.md)
-12. **Maven y control de versiones (Git)** — [Ejercicios](ejercicios/semana12_git_y_dependencias.md)
-13. **Consumo de APIs** — [Ejercicios](ejercicios/Semana13Apis.java)
+12. **Maven y control de versiones (Git)** — [Ejercicios](ejercicios/semana12_git_y_dependencias/semana12_git_y_dependencias.md)
+13. **Consumo de APIs** — [Ejercicios](ejercicios/semana13_apis/semana13_apis.md)
 
 Cada semana 2-10 y 13 es un único archivo `.java` con un método `main` que ejecuta
 todos los ejercicios de esa semana en orden (compilar con `javac NombreDelArchivo.java`
