@@ -170,7 +170,10 @@ public class Semana08Funciones {
                 System.out.println(multiplicar(numero1, numero2));
                 break;
             case "/":
-                System.out.println(dividir(numero1, numero2));
+                Double resultadoDivision = dividir(numero1, numero2);
+                if (resultadoDivision != null) {
+                    System.out.println(resultadoDivision);
+                }
                 break;
             default:
                 System.out.println("Operacion invalida");

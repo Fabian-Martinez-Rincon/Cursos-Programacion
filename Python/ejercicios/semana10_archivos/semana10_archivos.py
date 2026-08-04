@@ -8,8 +8,8 @@ Ejercicio 4: Leer el CSV y mostrar cada fila.
 Ejercicio 5: Guardar un diccionario en un archivo JSON y volver a cargarlo.
 
 Nota: estos scripts crean archivos dentro de la carpeta "datos/" para no
-ensuciar el resto del proyecto. Crear esa carpeta antes de ejecutar,
-o descomentar la linea os.makedirs de abajo.
+ensuciar el resto del proyecto. La linea os.makedirs de abajo crea esa
+carpeta automaticamente si no existe.
 """
 
 import csv

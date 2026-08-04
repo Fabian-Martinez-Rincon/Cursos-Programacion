@@ -18,16 +18,17 @@ especialización Backend con Spring Boot.
 8. **Métodos y manejo de excepciones** — [Ejercicios](ejercicios/semana8_funciones_y_errores/semana8_funciones_y_errores.md)
 9. **Proyecto integrador** — [Ejercicios](ejercicios/semana9_proyecto_integrador/semana9_proyecto_integrador.md)
 10. **Archivos (txt, CSV, Properties)** — [Ejercicios](ejercicios/semana10_archivos/semana10_archivos.md)
-11. **Programación orientada a objetos (eje del camino)** — no es una sola semana: es su propio curso completo, con teoría en PDF y ejercicios, en [POO/readme.md](../POO/readme.md)
+11. **Programación orientada a objetos (eje del camino)** — [Ejercicios](ejercicios/semana11_poo/semana11_poo.md)
 12. **Maven y control de versiones (Git)** — [Ejercicios](ejercicios/semana12_git_y_dependencias/semana12_git_y_dependencias.md)
 13. **Consumo de APIs** — [Ejercicios](ejercicios/semana13_apis/semana13_apis.md)
 
-Cada semana 2-10 y 13 es un único archivo `.java` con un método `main` que ejecuta
+Cada semana 2-13 es un único archivo `.java` con un método `main` que ejecuta
 todos los ejercicios de esa semana en orden (compilar con `javac NombreDelArchivo.java`
-y ejecutar con `java NombreDelArchivo`, sin el `.java` al final). La semana 11 (POO) es
-la excepción: se sigue [POO/readme.md](../POO/readme.md) en vez de un archivo de ejercicios
-de esta carpeta, y puede tomar varias semanas en la práctica — las semanas 1-10 existen
-para llegar a esta con la lógica y la sintaxis ya resueltas, no como un fin en sí mismas.
+y ejecutar con `java NombreDelArchivo`, sin el `.java` al final). La semana 11 (POO) hoy
+tiene el mismo formato y tamaño que las demás (clases, encapsulamiento, herencia,
+polimorfismo); puede ampliarse más adelante a su propio curso completo con teoría en
+PDF si hace falta más profundidad — las semanas 1-10 existen para llegar a esta con la
+lógica y la sintaxis ya resueltas, no como un fin en sí mismas.
 
 ## Especialización: Backend con Spring Boot
 

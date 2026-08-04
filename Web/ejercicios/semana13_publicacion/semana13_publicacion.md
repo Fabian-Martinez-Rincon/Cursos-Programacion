@@ -9,7 +9,7 @@ internet con una URL real que se pueda compartir.
 2. Confirmar que todos los links a imágenes, CSS y JS sean relativos (por ejemplo
    `estilos.css`, no `C:\Usuarios\...\estilos.css`), para que funcionen en cualquier
    servidor.
-3. Subir el proyecto final a GitHub (ver [semana 12](semana12_git_y_github.md)).
+3. Subir el proyecto final a GitHub (ver [semana 12](../semana12_git_y_github/semana12_git_y_github.md)).
 
 ## Ejercicio 2: Publicar con GitHub Pages
 

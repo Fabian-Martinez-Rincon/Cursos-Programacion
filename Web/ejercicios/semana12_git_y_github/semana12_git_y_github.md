@@ -29,7 +29,7 @@ git log --oneline
 
 ## Ejercicio 3: Hacer un cambio y una segunda confirmacion
 
-1. Editar el `index.html` del proyecto de la semana 10 (cambiar algun texto).
+1. Editar el archivo del proyecto de la semana 10 (`semana10_proyecto_integrador.html`; cambiar algun texto). El renombre a `index.html` se hace recien en la semana 13, al publicar.
 2. Confirmar el cambio:
 
 ```bash

@@ -97,7 +97,15 @@ try {
 
 ## Ejercicio 7: Proyecto de la semana — calculadora con metodos
 
+`sumar` se vuelve a definir aca, ahora recibiendo `double` en vez de `int`
+(otra sobrecarga, como en el ejercicio 5), porque los numeros que pide esta
+calculadora pueden tener decimales.
+
 ```java
+static double sumar(double a, double b) {
+    return a + b;
+}
+
 static double restar(double a, double b) {
     return a - b;
 }
@@ -134,7 +142,10 @@ switch (operacion) {
         System.out.println(multiplicar(numero1, numero2));
         break;
     case "/":
-        System.out.println(dividir(numero1, numero2));
+        Double resultadoDivision = dividir(numero1, numero2);
+        if (resultadoDivision != null) {
+            System.out.println(resultadoDivision);
+        }
         break;
     default:
         System.out.println("Operacion invalida");

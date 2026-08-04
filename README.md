@@ -85,10 +85,9 @@ de Datos, analizar un dataset y presentar conclusiones).
 ## Camino 3: Java, orientado a objetos
 
 Plan completo: [Java/README.md](Java/README.md). El eje del camino es la Programación
-Orientada a Objetos (semana 11, con teoría en PDF y ejercicios propios en [POO/readme.md](POO/readme.md) —
-no es una sola semana, es su propio curso completo): las semanas 1-10 son la base de
-lógica y sintaxis para llegar preparado, y la especialización en Backend con Spring Boot
-(semanas 12-13 + Maven/Git) es esa misma POO aplicada a un framework real.
+Orientada a Objetos (semana 11): las semanas 1-10 son la base de lógica y sintaxis para
+llegar preparado, y la especialización en Backend con Spring Boot (semanas 12-13 +
+Maven/Git) es esa misma POO aplicada a un framework real.
 
 **Objetivo final:**
 Dominar el paradigma orientado a objetos (clases, encapsulamiento, herencia, polimorfismo)
